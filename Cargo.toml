@@ -6,3 +6,5 @@ authors = ["damianrivas <drivas1993@gmail.com>"]
 [dependencies]
 num = "0.1.27"
 image = "0.13.0"
+crossbeam = "0.2.8"
+num_cpus = "1.8.0"
