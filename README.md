@@ -1,6 +1,6 @@
 # Mandelbrot
 
-This program generates the Mandelbrot set using the Escape Time algorithm and renders a PNG image of it.
+This program generates the Mandelbrot set using the Escape Time algorithm and concurrently renders a PNG image of it.
 
 #### To run:
 
