@@ -10,8 +10,15 @@ This program generates the Mandelbrot set using the Escape Time algorithm and co
 * It will install its dependencies and build an executable
 * Run it! `./target/release/mandelbrot mandel_01.png 4000x3000 -2.3,-1.48 0.66,1.48`
 
-Here is an example image from running the above:
+Arguments:
 
-![alt text](https://github.com/DamianRivas/mandelbrot/blob/master/mandel.png "Example image of a Mandelbrot set")
+1.  Name of the image file
+2.  Dimensions of the image. Format: "{length}x{height}"
+3.  Top-left corner of the area to render. Format: "{x},{y}"
+4.  Bottom-right corner of the area to render. Format: "{x},{y}"
+
+Here is an example image from running the above command:
+
+![Example image of a Mandelbrot set](https://github.com/DamianRivas/mandelbrot/blob/master/mandel.png "Example image of a Mandelbrot set")
 
 Enjoy :)
